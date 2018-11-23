@@ -1,0 +1,50 @@
+{
+  "window.zoomLevel": -0.5,
+  "editor.fontFamily": "'Roboto Mono', 'monospace'",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 34,
+  // "editor.letterSpacing": 1,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": false,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80, 100, 120],
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "cSpell.language": "en",
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Night Owl",
+  "git.enableSmartCommit": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
+}
