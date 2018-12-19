@@ -1,6 +1,5 @@
 /* code --install-extension */
------------------------------
-aaron-bond.better-comments
+-----------------------------aaron-bond.better-comments
 akamud.vscode-theme-onedark
 alefragnani.project-manager
 Archety.material-icons
@@ -10,6 +9,7 @@ christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 cmstead.jsrefactor
 CoenraadS.bracket-pair-colorizer
+DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eg2.tslint
@@ -22,6 +22,7 @@ mrmlnc.vscode-scss
 ms-vscode.Theme-1337
 msjsdiag.debugger-for-chrome
 naumovs.color-highlight
+octref.vetur
 pnp.polacode
 ritwickdey.LiveServer
 robinbentley.sass-indented
@@ -31,5 +32,5 @@ shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
 sysoev.language-stylus
 techer.open-in-browser
-WallabyJs.quokka-vscode
+wesbos.theme-cobalt2
 wix.vscode-import-cost
