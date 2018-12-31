@@ -1,6 +1,7 @@
-/* code --install-extension */
------------------------------aaron-bond.better-comments
-akamud.vscode-theme-onedark
+/* code --list-extensions */
+/* code --install-extensions */
+-----------------------------
+aaron-bond.better-comments
 alefragnani.project-manager
 Archety.material-icons
 asvetliakov.snapshot-tools
@@ -19,18 +20,16 @@ formulahendry.auto-rename-tag
 jpoissonnier.vscode-styled-components
 mikestead.dotenv
 mrmlnc.vscode-scss
-ms-vscode.Theme-1337
 msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 octref.vetur
 pnp.polacode
 ritwickdey.LiveServer
 robinbentley.sass-indented
-sallar.vscode-duotone-dark
 sdras.night-owl
 shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
 sysoev.language-stylus
 techer.open-in-browser
-wesbos.theme-cobalt2
+WallabyJs.quokka-vscode
 wix.vscode-import-cost
