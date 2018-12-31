@@ -2,6 +2,7 @@
 /* code --install-extensions */
 -----------------------------
 aaron-bond.better-comments
+ahmadawais.shades-of-purple
 alefragnani.project-manager
 Archety.material-icons
 asvetliakov.snapshot-tools
@@ -14,11 +15,13 @@ DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dsznajder.es7-react-js-snippets
 eg2.tslint
+EliverLara.andromeda
 Equinusocio.vsc-material-theme
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
 jpoissonnier.vscode-styled-components
 mikestead.dotenv
+monokai.theme-monokai-pro-vscode
 mrmlnc.vscode-scss
 msjsdiag.debugger-for-chrome
 naumovs.color-highlight
