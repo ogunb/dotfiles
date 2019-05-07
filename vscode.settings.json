@@ -1,49 +1,76 @@
 {
-  "editor.fontFamily": "'Roboto Mono', 'monospace'",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 32,
-  "workbench.editor.tabSizing": "shrink",
-  "html.format.enable": true,
-  "html.format.preserveNewLines": true,
-  "files.trimTrailingWhitespace": true,
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3,
-  "editor.wordWrap": "on",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorBlinking": "solid",
-  "editor.colorDecorators": false,
-  "workbench.activityBar.visible": true,
-  "workbench.sideBar.location": "left",
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [100, 120, 140],
-  "editor.minimap.showSlider": "always",
-  "workbench.startupEditor": "newUntitledFile",
-  "extensions.ignoreRecommendations": false,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.next": true
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "prettier.singleQuote": true,
-  "git.enableSmartCommit": true,
-  "terminal.integrated.cursorStyle": "underline",
-  "markdown-preview-enhanced.liveUpdate": true,
-  "workbench.colorTheme": "Dank Neon",
-  "git.checkoutType": "remote",
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.renderIndentGuides": false,
-  "eslint.packageManager": "yarn",
-  "prettier.eslintIntegration": true,
-  "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline"
+    "editor.fontFamily": "'Roboto Mono', 'monospace'",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 40,
+    "workbench.editor.tabSizing": "shrink",
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+    "editor.colorDecorators": false,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [100, 120, 140],
+    "editor.minimap.showSlider": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.next": true
+    },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [".html", ".js", ".vue", ".jsx"]
+    },
+    "eslint.validate": [
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "markdown-preview-enhanced.liveUpdate": true,
+    "workbench.colorTheme": "Dank Neon",
+    "git.checkoutType": "remote",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.renderIndentGuides": false,
+    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": -1,
+    "window.newWindowDimensions": "fullscreen",
+    "gitlens.views.compare.files.layout": "tree",
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
 }
