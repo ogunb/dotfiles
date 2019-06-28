@@ -1,8 +1,9 @@
 /* code --list-extensions */
 /* code --install-extensions */
------------------------------
-aaron-bond.better-comments
+-----------------------------aaron-bond.better-comments
 ahmadawais.shades-of-purple
+andys8.jest-snippets
+ardenivanov.svelte-intellisense
 asvetliakov.snapshot-tools
 be5invis.vscode-custom-css
 christian-kohler.npm-intellisense
@@ -17,12 +18,14 @@ dsznajder.es7-react-js-snippets
 eamodio.gitlens
 eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
+equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
+fivethree.vscode-svelte-snippets
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 hollowtree.vue-snippets
 ipatalas.vscode-postfix-ts
-johnpapa.vscode-peacock
+JamesBirtles.svelte-vscode
 mikestead.dotenv
 mrmlnc.vscode-scss
 ms-vscode.vscode-typescript-tslint-plugin
@@ -32,11 +35,13 @@ octref.vetur
 Orta.vscode-jest
 PKief.material-icon-theme
 pnp.polacode
+qinjia.seti-icons
 redhat.vscode-yaml
 ritwickdey.LiveServer
-RobbOwen.synthwave-vscode
 robinbentley.sass-indented
 sdras.night-owl
+sdras.vue-vscode-snippets
+Shan.code-settings-sync
 shinnn.stylelint
 spywhere.guides
 techer.open-in-browser
