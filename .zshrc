@@ -54,6 +54,31 @@ killPort() {
     lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill
 }
 
+// wsl
+dnsfix () { /mnt/c/Windows/system32/ipconfig.exe /all | grep --color=auto "DNS Servers" | cut -d ":" -f 2 | grep --color=auto -e '^ [0-9]' | sed 's/^/nameserver/' | sudo tee /etc/resolv.conf > /dev/null }
+
+startwork () {
+    reposDirectory='~/repos';
+    workingDirectory=$1;
+    startCommand=$2;
+
+    cd $reposDirectory;
+    cd $workingDirectory;
+
+    eval $startCommand;
+}
+
+startapp () {
+    startCommand='npm start';
+    startwork 'micro-frontend-initializer' $startCommand
+}
+
+startroot () {
+    startCommand='nvm use 13; npm run start:root';
+    dnsfix;
+    startwork 'micro-frontend-initializer' $startCommand
+}
+
 # ALIASES
 # Git
 alias gi="git init && gac 'Initial commit'"
