@@ -1,5 +1,4 @@
 export ZSH="/Users/ogun.babacan/.oh-my-zsh"
-export PATH=/opt/local/lib/postgresql90/bin/:$PATH
 
 ZSH_THEME="cobalt2"
 
@@ -54,29 +53,14 @@ killPort() {
     lsof -i tcp:$1 | awk 'NR!=1 {print $2}' | xargs kill
 }
 
-// wsl
-dnsfix () { /mnt/c/Windows/system32/ipconfig.exe /all | grep --color=auto "DNS Servers" | cut -d ":" -f 2 | grep --color=auto -e '^ [0-9]' | sed 's/^/nameserver/' | sudo tee /etc/resolv.conf > /dev/null }
-
 startwork () {
-    reposDirectory='~/repos';
-    workingDirectory=$1;
-    startCommand=$2;
-
-    cd $reposDirectory;
-    cd $workingDirectory;
-
-    eval $startCommand;
+    cd ~/repos/micro-frontend-initializer;
+    bash start.sh;
 }
 
-startapp () {
-    startCommand='npm start';
-    startwork 'micro-frontend-initializer' $startCommand
-}
-
-startroot () {
-    startCommand='nvm use 13; npm run start:root';
-    dnsfix;
-    startwork 'micro-frontend-initializer' $startCommand
+startlahmacun () {
+    cd ~/repos/lahmacun;
+    npm run serve;
 }
 
 # ALIASES
@@ -86,6 +70,7 @@ alias gstat="git status"
 alias ga="git add"
 alias gcm="git commit -m"
 alias gac="git add . && git commit -m"
+alias gaz="git add . && git cz"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gpo="git push origin"
@@ -95,7 +80,8 @@ alias gs="git stash --include-untracked"
 alias gsp="git stash pop"
 alias gcer="git cherry-pick"
 alias gfixcom="git commit --amend --no-edit"
-alias gpublish="git push --set-upstream origin $(current_branch)"
+alias gcurrentbranch="git branch | sed -n -e 's/^\* \(.*\)/\1/p'"
+alias gpublish="git push --set-upstream origin $(gcurrentbranch)"
 alias gclean="git_clean_local_branches"
 
 # Navigation
@@ -115,6 +101,10 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
+# Python
+alias python="python3"
+alias pip="/usr/bin/pip3"
+
 # Other
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g;'
-alias reinstall="sudo rm -rf node_modules && npm i"
+alias reinstall="rm -rf node_modules && npm i"
