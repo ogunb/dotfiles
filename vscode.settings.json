@@ -1,76 +1,274 @@
 {
-    "editor.fontFamily": "'Roboto Mono', 'monospace'",
-    "editor.fontSize": 18,
-    "editor.lineHeight": 40,
-    "workbench.editor.tabSizing": "shrink",
-    "html.format.enable": true,
-    "html.format.preserveNewLines": true,
-    "files.trimTrailingWhitespace": true,
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 3,
-    "editor.wordWrap": "on",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.cursorBlinking": "solid",
-    "editor.colorDecorators": false,
-    "workbench.activityBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "editor.renderWhitespace": "none",
-    "editor.rulers": [100, 120, 140],
-    "editor.minimap.showSlider": "always",
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.ignoreRecommendations": false,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/.next": true
+  "editor.fontFamily": "'Iosevka', 'monospace'",
+  "editor.fontSize": 22,
+  "editor.lineHeight": 40,
+  "editor.letterSpacing": 1.1,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [100, 120, 140],
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 100,
+  "editor.formatOnSave": false,
+  "editor.renderIndentGuides": false,
+  "editor.suggestSelection": "first",
+  "workbench.editor.wrapTabs": true,
+
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#AB47BC",
+    "list.activeSelectionForeground": "#AB47BC",
+    "list.inactiveSelectionForeground": "#AB47BC",
+    "list.highlightForeground": "#AB47BC",
+    "scrollbarSlider.activeBackground": "#AB47BC50",
+    "editorSuggestWidget.highlightForeground": "#AB47BC",
+    "textLink.foreground": "#AB47BC",
+    "progressBar.background": "#AB47BC",
+    "pickerGroup.foreground": "#AB47BC",
+    "tab.activeBorder": "#AB47BC",
+    "notificationLink.foreground": "#AB47BC",
+    "editorWidget.resizeBorder": "#AB47BC",
+    "editorWidget.border": "#AB47BC",
+    "settings.modifiedItemIndicator": "#AB47BC",
+    "settings.headerForeground": "#AB47BC",
+    "panelTitle.activeBorder": "#AB47BC",
+    "breadcrumb.activeSelectionForeground": "#AB47BC",
+    "menu.selectionForeground": "#AB47BC",
+    "menubar.selectionForeground": "#AB47BC",
+    "editor.findMatchBorder": "#AB47BC",
+    "selection.background": "#AB47BC40"
+  },
+
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#AB47BC",
+  "materialTheme.accent": "Purple",
+
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+
+  "extensions.ignoreRecommendations": false,
+
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".jsx", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
     },
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.formatOnSave": false,
-    "javascript.format.enable": false,
-    "eslint.autoFixOnSave": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.options": {
-        "extensions": [".html", ".js", ".vue", ".jsx"]
+    {
+      "language": "javascript",
+      "autoFix": true
     },
-    "eslint.validate": [
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        }
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "git.enableSmartCommit": true,
-    "terminal.integrated.cursorStyle": "underline",
-    "markdown-preview-enhanced.liveUpdate": true,
-    "workbench.colorTheme": "Dank Neon",
-    "git.checkoutType": "remote",
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.renderIndentGuides": false,
-    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "prettier.eslintIntegration": true,
-    "prettier.tabWidth": 4,
-    "window.zoomLevel": -1,
-    "window.newWindowDimensions": "fullscreen",
-    "gitlens.views.compare.files.layout": "tree",
-    "gitlens.advanced.messages": {
-        "suppressFileNotUnderSourceControlWarning": true
+    {
+      "language": "javascriptreact",
+      "autoFix": true
     },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.newWindowDimensions": "fullscreen",
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "git.enableSmartCommit": true,
+  "git.checkoutType": "remote",
+  "gitlens.views.compare.files.layout": "tree",
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+
+  "diffEditor.renderSideBySide": true,
+
+  "sync.gist": "568df4c1bef65be806665439ce968eed",
+  // "sync.forceUpload": true,
+  "sync.removeExtensions": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vetur.format.defaultFormatter.html": "none",
+
+  // "vscode_custom_css.imports": [
+  //     "file:///Users/ogun.babacan/synthwave84.css"
+  // ],
+
+  "cSpell.userWords": [
+    "",
+    "Destructure",
+    "EŞLEŞMEYİ",
+    "Iframe",
+    "Quakka",
+    "Repos",
+    "Structs",
+    "Turkce",
+    "Unselection",
+    "Vuex",
+    "Woah",
+    "YÖNETİM\n",
+    "Zoomer",
+    "animationend",
+    "axios",
+    "barcode",
+    "biggerımage",
+    "concat",
+    "contenteditable",
+    "dayjs",
+    "dockerize",
+    "dropdown",
+    "fontawesome",
+    "formdata",
+    "fortawesome",
+    "grayscale",
+    "instanceof",
+    "keydown",
+    "microtip",
+    "middlewares",
+    "mixins",
+    "mousedown",
+    "mouseenter",
+    "mouseleave",
+    "mousemove",
+    "mouseup",
+    "newdeteail",
+    "nginx",
+    "postgres",
+    "rgba",
+    "stringify",
+    "tabindex",
+    "testid",
+    "todos",
+    "trendyol",
+    "tyemek",
+    "typeof",
+    "varianter",
+    "vite",
+    "vnode",
+    "İsteği",
+    "İçerik",
+    "İçerikleri",
+    "İşlem",
+    "İşleminiz"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "dockerfile",
+    "dotenv",
+    "git-commit",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "vue-html",
+    "vue-postcss",
+    "yaml",
+    "yml"
+  ],
+  "cSpell.language": "en,tr-TR,en-GB,tr",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "rust.rustup": {
+    "toolchain": "stable-i686-pc-windows-gnu",
+    "nightlyToolchain": "nightly-i686-pc-windows-gnu"
+  },
+  "rust.mode": "rls",
+  "rust.rls": {
+    "useRustfmt": true
+  },
+  "python.jediEnabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "git.confirmSync": false,
+  "python.languageServer": "Pylance",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "java.help.firstView": "gettingStarted",
+  "go.useLanguageServer": true,
+  "go.gopath": "/Users/ogun.babacan/.gvm/pkgsets/go1.6.3/my-project-pkgset:/Users/ogun.babacan/.gvm/pkgsets/go1.6.3/global",
+  "go.goroot": "/Users/ogun.babacan/.gvm/gos/go1.6.3",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+},
+"window.zoomLevel": -1,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "update.mode": "manual",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.bracketPairColorization.enabled": true,
 }
