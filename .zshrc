@@ -1,10 +1,10 @@
-export ZSH="/Users/ogun.babacan/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="cobalt2"
-
-plugins=(git)
+ZSH_THEME="eastwood"
 
 source $ZSH/oh-my-zsh.sh
+
+plugins=(git)
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -65,7 +65,7 @@ startlahmacun () {
 
 # ALIASES
 # Git
-alias gi="git init && gac 'Initial commit'"
+alias gi="git init && gac 'initial commit'"
 alias gstat="git status"
 alias ga="git add"
 alias gcm="git commit -m"
@@ -81,8 +81,11 @@ alias gsp="git stash pop"
 alias gcer="git cherry-pick"
 alias gfixcom="git commit --amend --no-edit"
 alias gcurrentbranch="git branch | sed -n -e 's/^\* \(.*\)/\1/p'"
-alias gpublish="git push --set-upstream origin $(gcurrentbranch)"
 alias gclean="git_clean_local_branches"
+
+gpub () {
+  git push --set-upstream origin $(gcurrentbranch);
+}
 
 # Navigation
 alias ..="cd .."
@@ -94,7 +97,6 @@ alias repos="~/repos"
 
 # Apps
 alias apps='open /Applications'
-alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
