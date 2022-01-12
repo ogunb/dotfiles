@@ -18,15 +18,14 @@
   "editor.formatOnSave": false,
   "editor.renderIndentGuides": false,
   "editor.suggestSelection": "first",
-  "workbench.editor.wrapTabs": true,
 
+  "workbench.editor.wrapTabs": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#AB47BC",
     "list.activeSelectionForeground": "#AB47BC",
@@ -105,10 +104,11 @@
   "liveServer.settings.donotShowInfoMsg": true,
 
   "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "Iosevka Term",
+  "terminal.integrated.fontSize": 20,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
 
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.newWindowDimensions": "fullscreen",
@@ -119,7 +119,8 @@
   "git.checkoutType": "remote",
   "gitlens.views.compare.files.layout": "tree",
   "gitlens.advanced.messages": {
-    "suppressFileNotUnderSourceControlWarning": true
+    "suppressFileNotUnderSourceControlWarning": true,
+    "suppressGitMissingWarning": true
   },
 
   "diffEditor.renderSideBySide": true,
@@ -136,18 +137,6 @@
 
   "cSpell.userWords": [
     "",
-    "Destructure",
-    "EŞLEŞMEYİ",
-    "Iframe",
-    "Quakka",
-    "Repos",
-    "Structs",
-    "Turkce",
-    "Unselection",
-    "Vuex",
-    "Woah",
-    "YÖNETİM\n",
-    "Zoomer",
     "animationend",
     "axios",
     "barcode",
@@ -155,13 +144,21 @@
     "concat",
     "contenteditable",
     "dayjs",
+    "Destructure",
     "dockerize",
     "dropdown",
+    "EŞLEŞMEYİ",
     "fontawesome",
     "formdata",
     "fortawesome",
     "grayscale",
+    "İçerik",
+    "İçerikleri",
+    "Iframe",
     "instanceof",
+    "İşlem",
+    "İşleminiz",
+    "İsteği",
     "keydown",
     "microtip",
     "middlewares",
@@ -174,22 +171,27 @@
     "newdeteail",
     "nginx",
     "postgres",
+    "Quakka",
+    "Repos",
     "rgba",
     "stringify",
+    "Structs",
     "tabindex",
     "testid",
     "todos",
     "trendyol",
+    "Turkce",
     "tyemek",
     "typeof",
+    "Unselection",
     "varianter",
     "vite",
     "vnode",
-    "İsteği",
-    "İçerik",
-    "İçerikleri",
-    "İşlem",
-    "İşleminiz"
+    "Vuex",
+    "walkthrough",
+    "Woah",
+    "YÖNETİM\n",
+    "Zoomer"
   ],
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -258,7 +260,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
 },
-"window.zoomLevel": -1,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
@@ -271,4 +272,18 @@
     "jupyter-notebook": "left"
   },
   "editor.bracketPairColorization.enabled": true,
+  "workbench.colorTheme": "Moonlight II Italic",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": -1,
+  "git.ignoreMissingGitWarning": true,
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "editor.linkedEditing": true,
 }
