@@ -1,7 +1,6 @@
 /* code --list-extensions */
 /* code --install-extensions */
 -----------------------------
-
 aaron-bond.better-comments
 ahmadawais.shades-of-purple
 asvetliakov.snapshot-tools
@@ -32,8 +31,8 @@ ergenekonyigit.oceanic-next-bimbo
 esbenp.prettier-vscode
 file-icons.file-icons
 formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
 foxundermoon.shell-format
+GitHub.copilot
 GitLab.gitlab-workflow
 golang.go
 helixquar.randomeverything
